@@ -34,6 +34,21 @@ const Cart = () => {
             {cartItems.length >= 1 && cartItems.map((item, index) => (
               <div className='product' key={item._id}>
                 <img src={urlFor(item?.image[0])} className='cart-product-image' />
+                <div className='item-desc'>
+                  <div className='flex top'>
+                    <h5>{item.name}</h5>
+                    <h4>${item.price}</h4>
+                  </div>
+                  <div className='flex bottom'>
+                    <div>
+                      <p className='quantity-desc'>
+                        <span className='minus' onClick=""><AiOutlineMinus/></span>
+                        <span className='num'>0</span>
+                        <span className='plus' onClick=""><AiOutlinePlus/></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             ))} 
           </div>
