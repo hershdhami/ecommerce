@@ -59,6 +59,19 @@ const Cart = () => {
               </div>
             ))} 
           </div>
+          {cartItems.length >= 1 && (
+            <div className='cart-bottom'>
+              <div className='total'>
+                <h3>SubTotal:</h3>
+                <h3>${totalPrice}</h3>
+              </div>
+              <div className='btn-container'>
+                <button type='button' className='btn' onClick="">
+                  Pay with Stripe
+                </button>
+              </div>
+            </div>
+          )}
         </div>
     </div>
   )
