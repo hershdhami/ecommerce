@@ -15,6 +15,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 ## Video of what it looks like
-- Note: Unlike other projects this was one of my first javascript projects so it was made with the help of a tutorial
 
 ![](https://gyazo.com/3a12700038572d25c4726802dee299ee.gif)
