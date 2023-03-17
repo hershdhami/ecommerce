@@ -16,4 +16,4 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Video of what it looks like
 
-![]https://gyazo.com/3a12700038572d25c4726802dee299ee.gif
+![](https://gyazo.com/3a12700038572d25c4726802dee299ee.gif)
